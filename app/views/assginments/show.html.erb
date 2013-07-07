@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @assginment.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @assginment.end_date %>
+</p>
+
+<p>
+  <strong>Worker:</strong>
+  <%= @assginment.worker %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @assginment.project %>
+</p>
+
+<%= link_to 'Edit', edit_assginment_path(@assginment) %> |
+<%= link_to 'Back', assginments_path %>

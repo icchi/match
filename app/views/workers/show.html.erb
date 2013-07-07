@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Dept:</strong>
+  <%= @worker.dept %>
+</p>
+
+<p>
+  <strong>Org:</strong>
+  <%= @worker.org %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @worker.name %>
+</p>
+
+<p>
+  <strong>Sales rep:</strong>
+  <%= @worker.sales_rep %>
+</p>
+
+<p>
+  <strong>Confirmed date:</strong>
+  <%= @worker.confirmed_date %>
+</p>
+
+<%= link_to 'Edit', edit_worker_path(@worker) %> |
+<%= link_to 'Back', workers_path %>

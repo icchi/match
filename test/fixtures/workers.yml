@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dept: MyString
+  org: MyString
+  name: MyString
+  sales_rep: MyString
+  confirmed_date: 2013-07-07
+
+two:
+  dept: MyString
+  org: MyString
+  name: MyString
+  sales_rep: MyString
+  confirmed_date: 2013-07-07
